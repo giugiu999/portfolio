@@ -131,7 +131,7 @@
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 @utility card-hover{
-  @apply transition-transform duration-300 hover:scale-[-1.02] hover:shadow-lg;
+  @apply transition-transform duration-300 hover:scale-105 hover:shadow-lg;
 }
 @utility gradient-border{
   @apply relative rounded-md;
@@ -142,8 +142,8 @@
     border-color:hsl(var(--card));
   }
 }
-@utility cosmic-button{
-  @apply px-4 py-2 rounded-full bg-primary text-primary-foreground font-semibold transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
+@utility cosmic-button {
+  @apply px-4 py-2 rounded-full bg-purple-500 text-white font-semibold transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
 }
 @utility star {
   @apply absolute rounded-full bg-white;
